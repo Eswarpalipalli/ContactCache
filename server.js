@@ -10,7 +10,7 @@ connectDb();
 const app = express();
 const port = process.env.PORT || 5000;
 app.use(cors({
-    origin : "https://contacts-frontend-oojs.onrender.com",
+    origin : true,
     methods : ["GET","POST","PUT","DELETE"]
 }))
 app.use(express.json());
