@@ -1,6 +1,6 @@
 import express from "express";
 import dotenv from "dotenv";
-import errorHandler from "./middleware/errorhandler.js";
+import errorHandler from "./middleware/errorHandler.js";
 import contactRoutes from './routes/contactRoutes.js';
 import userRoutes from "./routes/userRoutes.js";
 import connectDb from "./config/dbConnection.js";
